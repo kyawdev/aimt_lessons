@@ -1,0 +1,28 @@
+form{
+    width: 600px;
+    height: 400px;
+    margin: 100px auto;
+    padding: 20px;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+}
+.error > input{
+    border-color: red;
+}
+.error small{
+    color: red;
+}
+.success input {
+    border-color: green;
+}
+.success small {
+    display: none;
+}
