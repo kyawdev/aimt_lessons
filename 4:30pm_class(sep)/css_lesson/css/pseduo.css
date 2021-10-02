@@ -1,0 +1,46 @@
+h1::before {
+  content: "G";
+  display: block;
+}
+h1::after {
+  content: "A";
+  display: block;
+}
+
+/* h1 {
+  transition: 0.5s;
+} */
+
+/* h1:hover {
+  color: red;
+  letter-spacing: 10px;
+}
+a:visited {
+  color: red;
+}
+input:focus {
+  background: #000;
+}
+input[type="email"]:active {
+  background: blue;
+} */
+
+/* .main p:first-child {
+  background: red;
+  text-align: center;
+}
+
+.main p:last-child {
+  background: red;
+  text-align: center;
+}
+
+.main p:nth-child(3) {
+  background: red;
+  text-align: center;
+}
+.main p:nth-child(5) {
+  background: rgb(116, 5, 5);
+  text-align: center;
+}
+ */

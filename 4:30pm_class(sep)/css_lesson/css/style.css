@@ -1,0 +1,74 @@
+/* .html {
+  background: red;
+}
+.css {
+  background: blue;
+}
+.js {
+  background: yellow;
+}
+.app {
+  font-size: 50px;
+}
+.app2 {
+  text-align: center;
+}
+
+#app {
+  padding: 30px;
+}
+/* body {
+  background: rgba(238, 130, 130, 0.658);
+}
+h1 {
+  background: rgb(197, 185, 14);
+}
+p {
+  background: rgb(36, 50, 179);
+}
+a {
+  display: block;
+  font-size: 30px;
+  background: rgb(212, 112, 18);
+}
+input {
+  background: rgb(136, 5, 5);
+  padding: 20px;
+} */
+/* .main p {
+  background: rgb(228, 102, 102);
+}
+.app p {
+  background: yellow;
+}
+.sub p {
+  background: blue;
+}
+.main a {
+  display: block;
+  background: rgb(58, 7, 7);
+  padding: 10px;
+}
+.app a{
+    background: rgb(5, 20, 68);
+}
+.sub a{
+    background: #000;
+} */
+/* .main > p {
+  background: red;
+}
+.app > p {
+  text-align: center;
+} */
+input {
+  display: block;
+  padding: 9px;
+}
+input[type="text"] {
+  background: red;
+}
+input[type="email"] {
+  background: rgb(43, 206, 151);
+}
+

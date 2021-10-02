@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+</head>
+
+<body>
+    <h2>Register Form</h2>
+    <form action="">
+        <label for="name">Name</label> <br />
+        <input type="text" autofocus minlength="3" maxlength="20" placeholder="နာမည်ရေးပါ" id="name" required />
+        <br />
+
+        <label for="email">Email</label> <br />
+        <input type="email" autofocus minlength="3" maxlength="50" placeholder="*****@gmail.com" id="email" required />
+        <br />
+
+        <label for="phone">Phone</label> <br />
+        <input type="tel" autofocus minlength="6" maxlength="50" placeholder="09*******" id="phone" required />
+        <br />
+
+        <label for="age">age</label> <br />
+        <input type="number" autofocus min="16" max="80" placeholder="Your age" id="age" required />
+        <br />
+
+        <label for="dob">dob</label> <br />
+        <input type="date" autofocus placeholder="Your dob" id="dob" required />
+        <br />
+
+        <label for="password">password</label> <br />
+        <input type="password" minlength="6" maxlength="50" autofocus placeholder="Your password" id="password"
+            required />
+        <br />
+
+        <label for="cvform">cvform</label> <br />
+        <input type="file" accept="/image*" autofocus placeholder="Your cvform" id="cvform" required />
+        <br />
+
+        <label for="address">address</label> <br />
+        <textarea name="" id="address" cols="30" rows="10"></textarea>
+        <hr>
+        <h3>Select Your Gender</h3>
+        <input type="radio" checked name="gender" id="" value="male">Male
+        <input type="radio" name="gender" id="" value="female">Female
+        <br>
+        <h3>Select Your Hobby</h3>
+        <input type="checkbox" checked name="hobby" id="" value="game">Game
+        <input type="checkbox" name="hobby" id="" value="cycling">cycling
+        <input type="checkbox" name="hobby" id="" value="running">running
+        <input type="checkbox" name="hobby" id="" value="swimming">swimming
+        <input type="checkbox" name="hobby" id="" value="reading">reading
+        <br>
+        <h2>Select Youur Country</h2>
+        <select name="country">
+            <option value="northan-england">myanmar</option>
+            <option value="Spain_one">myanmar</option>
+            <option value="thia">thia</option>
+            <option value="France">France</option>
+            <option value="malaysia">malaysia</option>
+            <option value="England">England</option>
+            <option value="swedan">swedan</option>
+            <option value="china">china</option>
+            <option value="poland">poland</option>
+            <option value="myanmar">myanmar</option>
+            <option value="india">india</option>
+            <option value="myanmar">myanmar</option>
+            <option value="uk">uk</option>
+            <option value="myanmar">myanmar</option>
+            <option value="usa">usa</option>
+            <option value="germany">germany</option>
+            <option value="myanmar">myanmar</option>
+        </select>
+        <br /><br /><br />
+        <input type="submit" value="Register" />
+    </form>
+</body>
+
+</html>
